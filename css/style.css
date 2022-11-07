@@ -1,0 +1,236 @@
+ @import url('https://fonts.googleapis.com/css?family=Mukta|Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mukta', sans-serif;
+}
+/*--------Home Page CSS--------*/
+
+.icon{
+  padding-left: 20px;
+  height: 27px;
+  background-color: #e8e6e6;
+}
+.icon img:hover{
+  transform: scale(1.2);
+  transition: 700ms ease all;
+}
+.l-icon img{
+  background-color: #234a83;
+  padding: 2px;
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-right: 10px;
+}
+.r-icon{
+  float: right;
+  font-family: 'Mukta', sans-serif;
+}
+.r-icon a span{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.r-icon a{
+  color: black;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.r-icon span:hover{
+  text-decoration: none;
+}
+
+header{
+  height: 122px;
+  padding-left: 13px;
+  padding-top: 8px;
+}
+.logo img{
+  float: left;
+}
+.logo span{
+  margin-top: 0px;
+  margin: 0;
+  color: #b83955;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1px;
+  font-family: 'Mukta', sans-serif;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+}
+.logo p{
+  margin-top: 10px;
+  font-size: 19px;
+  font-family: 'Mukta', sans-serif;
+    color: #9e0c18;
+    line-height: 22px;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+.span{
+  float: left;
+  padding-top: 20px;
+}
+.visitnepal{
+  float: right;
+}
+.navbar{
+  background-color: #234a83;
+}
+.navbar-light .navbar-nav .nav-link{
+  padding-left: 50px;
+  font-size: 18px;
+  color: white;
+  font-family: 'Mukta', sans-serif;
+}
+.navbar-light .navbar-nav li.active>.nav-link{
+  color: red;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: red;
+  transform: scale(1.05);
+}
+.carousel-inner h6{
+  margin-left: 315px;
+  width: 250px;
+  height: 50px;
+  background-color: #234a83;
+  padding-top: 15px;
+  font-family: 'Mukta', sans-serif;
+}
+#introduction
+{
+  height: 1050px;
+}
+.youtube{
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  text-align: justify;
+  color: #333333;
+}
+.youtube h5{
+  padding-top: 25px;
+  color: #333333;
+}
+.news
+{
+  padding-left: 20px;
+}
+.news h5, .official h5{
+  padding-top: 25px;
+  color:#234A83;
+  font-weight: 500;
+}
+.introduction .col-md-4{
+  float: left;
+  padding-left: 30px;
+}
+.news h6{
+  font-weight: 400;
+}
+.news p{
+  font-size: 13px;
+}
+.official h6{
+  font-family: 'Mukta', sans-serif;
+  color: #C41A28;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.official p{
+  font-size: 16px;
+  color: #707070;
+  font-weight: 400;
+  font-family: 'Mukta', sans-serif;
+}
+.official img{
+  width: 160px;
+  height: 180px;
+  float: left;
+}
+#feed{
+  height: 450px;
+  background-color: #efefef;
+}
+.feed .col-md-4{
+  float: right;
+}
+.feed .col-md-4 h5{
+  color: #234A83;
+  font-weight: 600;
+  margin-top: 30px;
+}
+footer{
+  height: 350px;
+  background-color: #234A83;
+}
+.foot .col-md-3 h5{
+  color: white;
+  margin-top: 30px;
+}
+.foot .col-md-3 li{
+  color: white;
+}
+.foot .col-md-3{
+  float: left;
+}
+.copyright{
+  height: 80px;
+  background-color: #efefef;
+}
+.copyright p{
+  font-family: 'Mukta', sans-serif;
+  font-weight: 600;
+}
+.copyright a{
+  color: #b83955;
+}
+.copyright a:hover{
+  color: blue;
+  text-decoration: none;
+}
+@media(max-width: 490px)
+{
+  .visitnepal img{
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+  }
+  .logo img{
+    width: 20%;
+    margin-top: 20px;
+  }
+  .logo span{
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+}
+  .logo p{
+    font-size: 12px;
+      position: relative;
+    bottom: 5px;
+  }
+  #introduction{
+  	height: 2600px;
+  }
+#feed{
+	height: 1250px;
+}
+footer{
+	height: 900px;
+	padding-left: 50px;
+}
+.feed .col-md-4{
+	padding-left: 30px;
+}
+
+}
+/*-------------Login Page CSS Begin---------*/
